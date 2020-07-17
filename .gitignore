@@ -11,3 +11,13 @@ dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+/HoraDoSistema/nbproject/private/
+/IdiomaDoSistema/nbproject/private/
+/ResolucaoDaTela/nbproject/private/
+/HelloWorldSwing/nbproject/private/
+/HelloWorldJavaFX/nbproject/private/
+/RelogioSwing/nbproject/private/
+/IdiomaDoSistemaSwing/nbproject/private/
+/IdiomaSwing/nbproject/private/
+/ResolucaoSwing/nbproject/private/
+/TiposPrimitivos/nbproject/private/
