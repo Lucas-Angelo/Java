@@ -33,6 +33,24 @@ public class OperadoresAritmeticos {
         int numPos = 5;
         int somatorioPos = 10 + numPos++;
         System.out.printf("O somatório pos é %d. E numPos e: %d \n", somatorioPos, numPos);
+        
+        float f = 8.3f;
+        int arF = (int) Math.floor(f); // Arredonda pra baixo
+        System.out.printf("Floor: %d \n", arF);
+        
+        float c = 8.3f;
+        int arC = (int) Math.ceil(c); // Arredonda pra cima
+        System.out.printf("Ceil: %d\n", arC);
+        
+        float x = 8.3f;
+        int ar = (int) Math.round(x); // Arredonda aritmeticamente
+        System.out.printf("Aritmetic: %d\n", ar);
+        
+        double randomico = Math.random(); // Gera um numero aleatório entre 0 e 1
+        System.out.printf("Número aleatório: %.2f\n", randomico);
+        
+        int randomicoMax = (int) (5 + randomico * (10-5)); // Número aleatório entre 5 e 10
+        System.out.printf("Aleatório entre 5 e 10: %d\n", randomicoMax);
     }
     
 }
